@@ -1,45 +1,202 @@
-
-
-/* 
-CSS Glow Effect On Hover: 
-https://www.youtube.com/watch?v=M1cJrArFel8&feature=emb_title
- */
-
-
-
-
-/* 
- @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-
-* {
-    font: 700 16px 'Open Sans', sans-serif;
-    color: #eee;
+html {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    color: white;
+    background-color: black;
+    background-image:
+        url('/images/black-center-gradient.png'), 
+        url('/images/fibonacci-spiral-bar-vertical.png'), 
+        url('/images/spiral-tree-top-right.png'), 
+        url('/images/spiral-tree-bottom-right.png'), 
+        url('/images/background-text-L-and-R.png');
+    background-repeat: 
+        repeat-y, 
+        repeat-y, 
+        no-repeat, 
+        no-repeat, 
+        repeat-y;
+    background-position: 
+        center, 
+        left top, 
+        right top, 
+        bottom right, 
+        center;
+    background-attachment: fixed;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+pre{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.container {
-        margin: 2rem auto;
-        width: 1000px;
-    }
+.photo_placeholder{
+    text-align: center;
+    margin: 10px auto 10px auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.intro-page-container {
+    width: 98vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.header{
+    display: grid;
+    grid-template-rows: 115px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -25px;
+}
+.header h1{
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 10px auto 33px auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 330px;
+    height: 51px;
+    background: white;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 5px white, 0 0 75px white, 0 0 50px white, 0 0 100px white;
+}
+
+.header__navBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 600px;
+    height: 50px;
+    margin: 10px auto 10px auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 1000;
+}
+.header__navBox a{
+    display: inline-block;
+    padding: 2px 4px;
+    color: white;
+    font-size: 18px;
+    font-weight:bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .05s;
+    letter-spacing: 5px;
+    margin: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+}
+.header__navBox a:hover{
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    box-shadow: 0 0 5px white, 0 0 75px white, 0 0 50px white, 0 0 100px white;
+}
+
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    padding-left:100px;
+    padding-right:100px;
+    text-decoration: underline;
+    box-shadow: 0 0 50px black, 0 0 25px black, 0 0 25px black, 0 0 50px black, 0 0 65px black;
+  }
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+  }
+
+
+.graphic-me{
+    transform:scale(.75, .75);
+    float: left;
+    position: relative;
+    left: -50px;
+    z-index: -1000;
+
+    
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    box-shadow: 0 0 20px white, 0 0 37px white, 0 0 50px white, 0 0 50px white;
+}
+
+.main{
+    width: 98vw;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+.main__aboutMe, 
+.main__projects, 
+.main__contact{
+    width: 750px;
+}
+
+.section_subheading{
+    background-color: rgba(255, 255, 255, .1);
+    border-top: 1px solid white;
+    margin-top: 30px;
+    padding: 0px 0px 0px 8px;
+}
+.section_subheading h2{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.main__contact{
+}
+
+.main__contact img{
+    vertical-align: middle;
+    display: inline-block;
+    z-index: 1000;
+}
+.main__contact a{
+    display: inline-block;
+    margin: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight:bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    position: relative;
+    left: 100px;
+}
+.main__contact a:hover{
+    background-color: white;
+    color: #333;
+    box-shadow: 0 0 5px white, 0 0 75px white, 0 0 50px white, 0 0 100px white;
+}
+
+.project-box{
+    width: 650px;
+    margin: 100px auto 12px auto;
+    border: 1px solid rgba(255, 255, 255, 1);   
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    box-shadow: 0 0 5px white, 0 0 75px white, 0 0 50px white, 0 0 100px white;
+}
+
 .footer {
-    background-color: #ff0;
-    color: #011;
+    text-align: center;
+    height: 100vh;
 }
-.header {
-    background-color: #f00;
-}
-.main {
-}
-    .main__content {
-    }
-        .main__content__item--1,
-        .main__content__item--2 {
-            background-color: #0f0;
-            color: #011;
-        }
-    .main__sidebar {
-    }
-        .main__sidebar__item--1,
-        .main__sidebar__item--2,
-        .main__sidebar__item--3 {
-            background-color: #00f;
-        } */
