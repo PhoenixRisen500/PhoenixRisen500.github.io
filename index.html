@@ -7,13 +7,7 @@
     </head>
     <body>
 
-        <!--ADD branches to trees on right side. They look bare in the middle. -->
-
-        <!--switch background images (left side spirals and right corner trees) to DIV elements with flexbox-->
-
-        <!--I want a tuxedo photo, with a dark background + flash, and glasses if possible!-->
-
-    <div class="intro-page-container">
+    <div class="make-header-fill-the-entire-start-screen">
         <div class="header">
             <h1>Eric Braden</h1>
             <nav class="header__navBox" id="myJavaScriptStickyMenu">
@@ -42,33 +36,22 @@
                     After working in information technology at a major charter school management company, I took a detour and learned culinary arts. 
                     While cooking elaborate foods in fine dining restaurants, I practiced visualizing my goals, obsessing with details, and managing my time to produce high quality food on time every time. 
                 </p>
-<!--
-                    CSS MULTIPLE BACKGROUND IMAGES [tree grows with scrolling]
-                        POSITION GROWING IMAGE IN TOP RIGHT
-                            gradually reveals more branches (layered transparencies) as the reader progresses down the page
-                            use the fibonacci tree image(s)
-
-                    add dropdown menu from <a href="https://www.w3schools.com/Css/css_dropdowns.asp">w3schools CSS Dropdowns</a>
-                        add a <a href="https://www.w3schools.com/css/css3_transitions.asp">transition delay</a> to gradually reveal the items over (.3s?)
-
-                    Glasses...do you NEED glasses in photo?
--->
-
-<!--
-        brief biographical information
-            profiles, including at least GitHub and LinkedIn
-        list of skills
--->
+                <br>
+                <div id="my-skills-container">
+                    Skills:<br>
+                    <img src="images/logo-java.png" alt="java logo">
+                    <img src="images/logo-html.png" alt="html logo">
+                    <img src="images/logo-css.png" alt="css logo">
+                    <img src="images/logo-javascript.png" alt="javascript logo">
+                    <img src="images/logo-github.png" alt="GitHub logo">
+                    <img src="images/logo-gimp.png" alt="GIMP logo">
+                </div>
+                <br><br>
             </section>
 
 
 
 
-
-
-
-<!--Change contact icons to a grid (2x2)-->
-<!--Add a hover effect too.-->
 
             <section class="main__contact" id="contact"><br><br>
                 <div class="section_subheading"><h2>Contact</h2></div>
@@ -90,67 +73,81 @@
             <section class="main__projects" id="projects"><br><br>
                 <div class="section_subheading"><h2>Projects</h2></div>
 
-                
-<!--Add GitHub to tech used in each project-->
-
                 <article>
-                    <div class="project-box">
-                        <h3>Virtual Pet Shelter</h3>
+                    <div class="project-wrapper">
+                        <h3>1. Virtual Pet Shelter</h3>
                         
                         <a href="images/screenshot-virtual-pet-shelter-app.png">
-                        <img src="images/screenshot-sm-virtual-pet-shelter-app.png" alt=""></a>
+                        <img src="images/screenshot-sm-virtual-pet-shelter-app.png" alt="thumbnail image of virtual pet shelter screenshot"></a>
                         <br><br>
                         Polymorphic arrayList and user input adds and removes entries from a data set. 
                         <br><br>
-                        Randomly generates a 15 digit microchip numbers for each entry.
+                        Randomly generates a 15 digit microchip number for each entry.
                         <br><br>
                         Pets' hunger and thirst levels are also updated based upon user input. 
                         <br><br>
                         <a href="github">GitHub page</a>
                         <br><br>
                         Skills used: <br>
-                        <img src="images/logo-java.jpg" alt="Java logo">
-                        <img src="images/logo-github.jpg" alt="GitHub logo">
+                        <img src="images/logo-java.png" alt="Java logo">
+                        <img src="images/logo-github.png" alt="GitHub logo">
                     </div>
                 </article>
                     
                 <article>
-                    <div class="project-box">
-                        <h3>Virtual Pet</h3>
-                        <br>
+                    <div class="project-wrapper">
+                        <h3>2. Virtual Pet</h3>
+                        
                         <a href="images/screenshot-virtual-pet-app.png">
-                        <img src="images/screenshot-sm-virtual-pet-app.png" alt=""></a>
+                        <img src="images/screenshot-sm-virtual-pet-app.png" alt="thumbnail image of virtual pet screenshot"></a>
                         <br><br>
                         Basic game loop updates values based upon user input. 
                         <br><br>
                         <a href="github">GitHub page</a>
                         <br><br>
                         Skills used: <br>
-                        <img src="images/logo-java.jpg" alt="Java logo">
-                        <img src="images/logo-github.jpg" alt="GitHub logo">
+                        <img src="images/logo-java.png" alt="Java logo">
+                        <img src="images/logo-github.png" alt="GitHub logo">
                     </div>
                 </article>
             </section>
 
             <article>
-                <div class="project-box">
-                    <h3>Virtual Pet Shelter Amok</h3>
-                    <br>
+                <div class="project-wrapper">
+                    <h3>3. Virtual Pet Shelter Amok</h3>
+                    
                     <a href="images/screenshot-virtual-pet-amok-app.png">
-                    <img src="images/screenshot-sm-virtual-pet-amok-app.png" alt=""></a>
+                    <img src="images/screenshot-sm-virtual-pet-amok-app.png" alt="thumbnail image of virtual pet shelter amok screenshot"></a>
                     
                     <br><br>
                     Similar to virtual pet shelter but with the addition of robotic pets. 
                     <br><br>
-                    Differentiates between biological and animatronic pets with the use of abstraction and inheritance. 
+                    Differentiates between biological and animatronic pets through abstraction and inheritance. 
                     <br><br>
                     <a href="github">GitHub page</a>
                     <br><br>
                     Skills used: <br>
-                    <img src="images/logo-java.jpg" alt="Java logo">
-                    <img src="images/logo-github.jpg" alt="GitHub logo">
+                    <img src="images/logo-java.png" alt="Java logo">
+                    <img src="images/logo-github.png" alt="GitHub logo">
                 </div>
             </article>
+
+            <article>
+                <div class="project-wrapper">
+                    <h3>4. My Portfolio</h3>
+                    
+                    <a href="images/screenshot-portfolio.png">
+                    <img src="images/screenshot-sm-portfolio.png" alt="thumbnail image of portfolio screenshot"></a>
+                    <br><br>
+                    Skills used: <br>
+                    <img src="images/logo-html.png" alt="html logo">
+                    <img src="images/logo-css.png" alt="css logo">
+                    <img src="images/logo-javascript.png" alt="javascript logo">
+                    <img src="images/logo-github.png" alt="GitHub logo">
+                    <img src="images/logo-gimp.png" alt="GIMP logo">
+                </div>
+            </article>
+
             <br><br><br>
         </div>
 

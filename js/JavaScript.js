@@ -8,9 +8,9 @@ var sticky = menu.offsetTop;
 
 // Add the sticky class to the menu when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
-  if (window.pageYOffset-280 > sticky) {
-    menu.classList.add("sticky");
+  if (window.pageYOffset-278 > sticky) {
+    menu.classList.add("sticky-menu");
   } else {
-    menu.classList.remove("sticky");
+    menu.classList.remove("sticky-menu");
   }
 }
