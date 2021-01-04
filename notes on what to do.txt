@@ -1,0 +1,48 @@
+add dropdown menu from <a href="https://www.w3schools.com/Css/css_dropdowns.asp">w3schools CSS Dropdowns</a>
+    with a <a href="https://www.w3schools.com/css/css3_transitions.asp">transition delay</a> to gradually reveal the items over (.3s?)
+
+add licensing information (like works cited) for the logos
+    - probably at the bottom near my copyright notice
+
+
+change img tags to div's that rollover to new background-images on :hover
+
+rewrite pet shelter to polymorphic arrayList
+
+switch background images to DIV elements with flexbox? (left side spirals and right corner trees)
+
+I want a tuxedo photo, with a dark background + flash, and glasses if possible!
+    try white and black backgrounds for the tux photo
+
+
+
+
+add more skills logos to match my resume
+    IntelliJ
+    VSCode
+    Spring
+    Hibernate
+    JPA
+    MVC
+    Flexbox
+    Grid
+    TDD
+    Agile (Scrum)
+    Object Oriented Programming (OOP)
+    AJAX
+    JSON
+    Restful APIs
+    Responsive Design / Mobile
+    Structured Query Language (SQL)
+    Relational Databases
+    Source Control / Git
+
+
+
+
+CSS MULTIPLE BACKGROUND IMAGES [tree grows with scrolling]
+    POSITION GROWING IMAGE IN TOP RIGHT
+        gradually reveals more branches (layered transparencies) as the reader progresses down the page
+        use the fibonacci tree image(s)
+
+

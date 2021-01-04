@@ -7,9 +7,9 @@ body{
     background-color: black;
     background-image:
         url('/images/black-center-gradient.png'), 
-        url('/images/fibonacci-spiral-bar-vertical.png'), 
-        url('/images/spiral-tree-top-right.png'), 
-        url('/images/spiral-tree-bottom-right.png'), 
+        url('/images/fibonacci-spiral-bar-vertical.svg'), 
+        url('/images/spiral-tree-top-right.svg'), 
+        url('/images/spiral-tree-bottom-right.svg'), 
         url('/images/background-text-L-and-R.png');
     background-repeat: 
         repeat-y, 
