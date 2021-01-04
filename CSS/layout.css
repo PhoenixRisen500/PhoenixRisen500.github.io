@@ -49,8 +49,8 @@
 
 
 .graphic-me{
-    transform:scale(.75, .75);
     float: left;
+    margin: 50px;
     position: relative;
     left: -50px;
     z-index: -1000;
