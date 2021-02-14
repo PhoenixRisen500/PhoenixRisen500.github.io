@@ -48,12 +48,17 @@
   }
 
 
-.graphic-me{
+#graphic-me{
     float: left;
+    width: 350px;
+    height: auto;
     margin: 50px;
     position: relative;
-    left: -50px;
+    left: -0px;
     z-index: -1000;
+}
+#div--about-me-text{
+    width: auto;
 }
 
 #my-skills-container{
@@ -88,6 +93,11 @@
 .section_subheading h2{
     padding: 0px;
     margin: 0px;
+}
+
+#div--about-me-wrapper{
+    display: flex;
+    flex-direction: row;
 }
 
 .main__contact img{

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric's Bakery & Donut Clicker</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/counter.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="menu-wrapper">
+                <div id="menu-id-about" class="menu-item">About Eric's Baking Company</div>
+                <div id="menu-id-inspiration" class="menu-item" >Inspiration: Cookie Clicker</div>
+                <div id="menu-id-contact" class="menu-item">My Contact Info</div>
+            </div>
+            <div>
+                <div id="menu-item-about" class="menu-dropdown-item">
+                    <div class="closeTheBox">&times;</div>
+                    <h2 style="margin-top: 0px;">Eric's Baking Company</h2>
+                    <ul>
+                        <li>Providing sweet deep fried foods for the soul since 1923.</li>
+                        <li>Our menu ranges from simple sugar powdered donuts to French beignets made with pâte à choux. </li>
+                        <li>The bakery's roots go back to the high cuisine of French fine dining.</li>
+                    </ul>
+                </div>
+                <div id="menu-item-inspiration" class="menu-dropdown-item">
+                    <div class="closeTheBox">&times;</div>
+                    The inspiration for this game was: 
+                    <a href="https://orteil.dashnet.org/cookieclicker/">Cookie Clicker (https://orteil.dashnet.org/cookieclicker/)</a>.
+                </div>
+                <div id="menu-item-contact" class="menu-dropdown-item">
+                    <div class="closeTheBox">&times;</div>
+                    Eric Braden: <a href="javascript:location='mailto:\u0065\u0072\u0069\u0063\u002e\u0062\u0072\u0061\u0064\u0065\u006e\u0031\u0031\u0037\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"> E-mail me</a></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="grid-wrapper">
+
+            <div id="grid-column-1" class="grid-column">
+                <div id="donutUpgradesStore">
+                    <br><br>
+                    <h2 style="text-decoration: underline;">UPGRADES</h2>
+                    <br>
+                    <div>
+                        <h3 id="h3--multipliers">Donut Multipliers: </h3>
+                        <div id="store-1-cursor" class="donutUpgradesStore--option-box">
+                            <button id="button--buyMultiplier" class="store--button">Purchase 1 for 10 donuts</button>
+                        </div>
+                        <div id="donutsPerClickDisplay">Donuts per click: </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div>
+
+                        <h3 id="h3--autoclickers">Auto Clickers: </h3>
+                        <div class="donutUpgradesStore--option-box">
+                            <button id="button--buyAutoClicker" class="store--button">Purchase 1 for 100 donuts</button>
+                        </div>
+                        <div id="donutsPerSecondDisplay">Donuts per second: </div>
+                    </div>
+                </div>
+            
+            </div>
+
+
+            <div id="grid-column-2" class="grid-column">
+                <div id="div--big-donut-wrapper">
+                    <div id="bakeryName">Eric's Bakery</div>
+                    <div id="donutsCounterDisplay">Donuts: </div>
+                    <img id="bigDonut" class="hvr-push"
+                        src="./src/images/powdered_donut2.png" 
+                        alt="donut to click on" 
+                        style="width: 210px; height:210px;"
+                        >
+                </div>
+            </div>
+                
+        </div>
+    </main>
+
+    <button id="resetGame">Restart Game</button>
+
+
+
+    <script src="./src/js/app.js" type="module"></script>
+    <script src="./src/js/DonutMaker.js"></script>
+    <script src="./src/js/menu.js"></script>
+</body>
+</html>

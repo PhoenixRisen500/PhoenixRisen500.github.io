@@ -1,0 +1,13 @@
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  #donutsCounterDisplay {
+    transition: --num 0.3s;
+    counter-set: num var(--num);
+  }
+  #donutsCounterDisplay::after {
+    content: counter(num);
+  }

@@ -7,8 +7,6 @@
     </head>
     <body>
 
-        <img src="images/Fibonacci_spiral.svg" alt="" style="position: absolute; top: 0px; left: 300px; width: 150px;">
-
 
         <div class="make-header-fill-the-entire-start-screen">
             <div class="header">
@@ -27,29 +25,41 @@
         <div class="main">
             <section class="main__aboutMe" id="aboutMe"><br><br>
                 <div class="section_subheading"><h2>About Me</h2></div>
-
-                <img class="graphic-me" src="images/me-white-background.png" alt="photo of Eric Braden">
-                <p>
-                    I've always enjoyed making things. 
-                </p>
-                <p>
-                    As a child, I disassembled household items to discover the intricate parts hidden inside. My fascination with complex things turned into hobby electronics and simple web development as a teenager. 
-                </p>
-                <p>
-                    After working in information technology at a major charter school management company, I took a detour and learned culinary arts. 
-                    While cooking elaborate foods in fine dining restaurants, I practiced visualizing my goals, obsessing with details, and managing my time to produce high quality food on time every time. 
-                </p>
+                <div id="div--about-me-wrapper">
+                    <img id="graphic-me" src="images/me-white-background.png" alt="photo of Eric Braden">
+                    <div id="div--about-me-text">
+                        <p>
+                            I've always enjoyed making things. 
+                        </p>
+                        <p>
+                            As a child, I disassembled household items to discover the intricate parts hidden inside. My fascination with complex things turned into hobby electronics and simple web development as a teenager. 
+                        </p>
+                        <p>
+                            After working in information technology at a major charter school management company, I took a detour and learned culinary arts. 
+                            While cooking elaborate foods in fine dining restaurants, I practiced visualizing my goals, obsessing over details, and managing my time to produce high quality food on time every time. 
+                        </p>
+                    </div>
+                </div>
                 <br>
                 <div id="my-skills-container">
                     Skills:<br>
+
                     <img src="images/logo-java.png" alt="java logo">
                     <img src="images/logo-html.png" alt="html logo">
                     <img src="images/logo-css.png" alt="css logo">
                     <img src="images/logo-javascript.png" alt="javascript logo">
                     <img src="images/logo-github.png" alt="GitHub logo">
                     <img src="images/logo-gimp.png" alt="GIMP logo">
+                    <img src="images/inkscape.logo.svg" alt="Inkscape logo">
+                    <br><br>
+                    Java • Spring • Hibernate • JPA • JavaScript • MVC • HTML • CSS • Flexbox • Grid • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • AJAX • JSON • Restful APIs • Responsive Design / Mobile • Structured Query Language (SQL) • Relational Databases • Source Control / Git
+                    <br>
                 </div>
-                <br><br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
 
             </section>
 
@@ -79,45 +89,42 @@
 
                 <article>
                     <div class="project-wrapper">
-                        <h3>1. Virtual Pet Shelter</h3>
+                        <h3>Donut Clicker Game</h3>
                         
-                        <a href="images/screenshot-virtual-pet-shelter-app.png">
-                        <img src="images/screenshot-sm-virtual-pet-shelter-app.png" alt="thumbnail image of virtual pet shelter screenshot"></a>
+                        <a href="./donutMakerGame/donutMaker.html">
+                        <img src="images/screenshot-sm-donutMaker.png.png" alt="thumbnail image of donut maker screenshot"></a>
                         <br><br>
-                        Polymorphic arrayList and user input adds and removes entries from a data set. 
+                        JavaScript game with sound, dynamic HTML and DOM manipulation. 
                         <br><br>
-                        Randomly generates a 15 digit microchip number for each entry.
-                        <br><br>
-                        Pets' hunger and thirst levels are also updated based upon user input. 
-                        <br><br>
-                        <a href="https://github.com/PhoenixRisen500/module-1-week-4-virtual-pet-shelter-targaryen-master">GitHub page</a>
-                        <br><br>
-                        Skills used: <br>
-                        <img src="images/logo-java.png" alt="Java logo">
-                        <img src="images/logo-github.png" alt="GitHub logo">
-                    </div>
-                </article>
-                    
-                <article>
-                    <div class="project-wrapper">
-                        <h3>2. Virtual Pet</h3>
-                        
-                        <a href="images/screenshot-virtual-pet-app.png">
-                        <img src="images/screenshot-sm-virtual-pet-app.png" alt="thumbnail image of virtual pet screenshot"></a>
-                        <br><br>
-                        Basic game loop updates values based upon user input. 
-                        <br><br>
-                        <a href="https://github.com/PhoenixRisen500/Virtual-Pet-Eric-Braden">GitHub page</a>
-                        <br><br>
-                        Skills used: <br>
-                        <img src="images/logo-java.png" alt="Java logo">
-                        <img src="images/logo-github.png" alt="GitHub logo">
+                        <a href="./donutMakerGame/donutMaker.html">Play the game here</a> or see the <a href="">GitHub repository</a>. 
                     </div>
                 </article>
 
                 <article>
                     <div class="project-wrapper">
-                        <h3>3. Virtual Pet Shelter Amok</h3>
+                        <h3>Music Reviews Site</h3>
+                        
+                        <a href="images/screenshot-music-review-site.png">
+                        <img src="images/screenshot-sm-music-review-site.png" alt="thumbnail image of portfolio screenshot"></a>
+                        <br><br>
+                        H2 database with relational mapping to store and retrieve data. Users may add comments and hashtags. 
+                        <br><br>
+                        <a href="https://github.com/PhoenixRisen500/Music-Review-Site">GitHub repository</a>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="project-wrapper">
+                        <h3>My Portfolio</h3>
+                        
+                        <a href="images/screenshot-portfolio.png">
+                        <img src="images/screenshot-sm-portfolio.png" alt="thumbnail image of portfolio screenshot"></a>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="project-wrapper">
+                        <h3>Virtual Pet Shelter Amok</h3>
                         
                         <a href="images/screenshot-virtual-pet-amok-app.png">
                         <img src="images/screenshot-sm-virtual-pet-amok-app.png" alt="thumbnail image of virtual pet shelter amok screenshot"></a>
@@ -128,28 +135,45 @@
                         Differentiates between biological and animatronic pets through abstraction and inheritance. 
                         <br><br>
                         <a href="https://github.com/PhoenixRisen500/Virtual-Pet-Shelter-Amok">GitHub page</a>
-                        <br><br>
-                        Skills used: <br>
-                        <img src="images/logo-java.png" alt="Java logo">
-                        <img src="images/logo-github.png" alt="GitHub logo">
                     </div>
                 </article>
 
                 <article>
                     <div class="project-wrapper">
-                        <h3>4. My Portfolio</h3>
+                        <h3>Virtual Pet Shelter</h3>
                         
-                        <a href="images/screenshot-portfolio.png">
-                        <img src="images/screenshot-sm-portfolio.png" alt="thumbnail image of portfolio screenshot"></a>
+                        <a href="images/screenshot-virtual-pet-shelter-app.png">
+                        <img src="images/screenshot-sm-virtual-pet-shelter-app.png" alt="thumbnail image of virtual pet shelter screenshot"></a>
                         <br><br>
-                        Skills used: <br>
-                        <img src="images/logo-html.png" alt="html logo">
-                        <img src="images/logo-css.png" alt="css logo">
-                        <img src="images/logo-javascript.png" alt="javascript logo">
-                        <img src="images/logo-github.png" alt="GitHub logo">
-                        <img src="images/logo-gimp.png" alt="GIMP logo">
+                        User input adds and removes entries from a HashMap of virtual pets. 
+                        <br><br>
+                        Randomly generates a 15 digit microchip number for each entry.
+                        <br><br>
+                        Pets' hunger and thirst levels are also updated based upon user input. 
+                        <br><br>
+                        <a href="https://github.com/PhoenixRisen500/module-1-week-4-virtual-pet-shelter-targaryen-master">GitHub page</a>
                     </div>
                 </article>
+                    
+                <article>
+                    <div class="project-wrapper">
+                        <h3>Virtual Pet</h3>
+                        
+                        <a href="images/screenshot-virtual-pet-app.png">
+                        <img src="images/screenshot-sm-virtual-pet-app.png" alt="thumbnail image of virtual pet screenshot"></a>
+                        <br><br>
+                        Basic game loop updates values based upon user input. 
+                        <br><br>
+                        <a href="https://github.com/PhoenixRisen500/Virtual-Pet-Eric-Braden">GitHub page</a>
+                    </div>
+                </article>
+                
+
+
+
+
+
+
             </section>
             <br><br><br>
         </div>

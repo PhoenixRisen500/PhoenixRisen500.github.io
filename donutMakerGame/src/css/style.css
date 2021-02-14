@@ -1,0 +1,227 @@
+:root{
+	--menu-color: #ffffff;
+	--menu-bg-color: rgb(0, 105, 175);
+	--highlighted-menu-bg-color:  rgba(0, 105, 175, 0.945);
+}
+
+body{
+	margin: 0px;
+	/* background-color: rgb(0, 0, 0); */
+}
+
+#menu-wrapper{
+	display: flex;
+	align-items: flex-end;
+	position: fixed;
+	top: 0%;
+	left: 50vw;
+	z-index: 10000;
+	transform: translate(-50%);
+}
+
+.menu-item{
+	cursor: pointer;
+	margin: 3px;
+	padding: 1px 4px 1px 4px;
+	border: 2px solid rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	background-color: var(--menu-bg-color);
+	border-radius: 2px;
+}
+.menu-dropdown-item a, a:visited, a:active, a:hover{
+	color: white;
+}
+
+.menu-dropdown-item{
+	display: none;
+	cursor: pointer;
+	margin: 3px;
+	padding: 1px 4px 1px 4px;
+	border: 2px solid rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	background-color: var(--highlighted-menu-bg-color);
+	border-radius: 2px;
+	position: absolute; 
+	top: 30px;
+	left: 50vw;
+	transform: translate(-50%);
+	width: 552px;
+	min-height: 100px;
+	z-index: 500000;
+}
+
+#menu-id-fred{
+	width: 212px;
+	height: 18px;
+}
+#menu-id-inspiration{
+	width: 175;
+	height: 18px;
+}
+#menu-id-contaact{
+	width: 107px;
+	height: 18px;
+}
+.closeTheBox{
+	padding: 0px 10px 0px 0px;
+	margin: 0px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 2em;
+}
+
+
+#grid-wrapper{
+	display: grid;
+	grid-template-columns: 450px auto;
+	gap: 0px 2px;
+}
+.grid-column{
+	background-color: black;
+	text-align: center;
+	vertical-align: middle;
+	height: 100vh;
+}
+#grid-column-1{
+	position: relative;
+	left: 100px;
+	background-color: rgb(255, 255, 255);
+	z-index: 9999;
+}
+#grid-column-2{
+	background-color: rgb(255, 255, 255);
+}
+#grid-column-3{
+	background-color: rgb(255, 255, 255);}
+
+
+
+#div--big-donut-wrapper{
+	position: relative;
+	top: 50px;
+}
+#bakeryName{
+	position: relative;
+	top: 60px;
+	font-size: 23px;
+}
+#donutsCounterDisplay{
+	position: relative;
+	top: 80px;
+	font-size: 50px;
+	font-weight: bold;
+}
+#donutsPerSecondDisplay{
+	position: relative;
+	top: 4px;
+	font-size: 14px;
+}
+#donutsPerClickDisplay{
+	position: relative;
+	top: 4px;
+	font-size: 14px;
+}
+
+#bigDonut{
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	top: 155px;
+	cursor: pointer;
+	border-radius: 200px;
+	z-index: 9999999;
+	transform: scale(1.5);
+}
+
+
+
+
+/* Donut Push Animation (happens onClick) */
+@-webkit-keyframes hvr-push {
+	50% {
+	  -webkit-transform: scale(0.8);
+	  transform: scale(0.8);
+	}
+	100% {
+	  -webkit-transform: scale(1);
+	  transform: scale(1);
+	}
+  }
+  @keyframes hvr-push {
+	50% {
+	  -webkit-transform: scale(0.8);
+	  transform: scale(0.8);
+	}
+	100% {
+	  -webkit-transform: scale(1);
+	  transform: scale(1);
+	}
+  }
+  .hvr-push {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-push:active {
+	-webkit-animation-name: hvr-push;
+	animation-name: hvr-push;
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+  }
+
+
+
+
+#donutUpgradesStore{
+	padding: 120px 100px 100px 100px;
+	position: relative;
+	top: 20px;
+	width: 450px;
+	height: 100%;
+	margin: auto;
+	background-image: url('../images/1713052.jpg');
+	background-size: 350px;
+	background-position-x: center;
+	background-position-y: 63px;
+	background-repeat: no-repeat;
+}
+
+#donutUpgradesStore h2, h3 {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.donutUpgradesStore--option-box {
+	margin: auto;
+	width: 300px;
+	margin: auto;
+	text-align: center;
+}
+
+.store--button{
+	border-radius: 5px;
+	margin: auto;
+	padding: 3px;
+	text-align: center;
+}
+#button--buyMultiplier{
+	width: 160px;
+	z-index: 99999999;
+}
+#button--buyAutoClicker{
+	width: 168px;
+	z-index: 99999999;
+}
+
+#resetGame{
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	background-color: rgb(253, 255, 228);
+}

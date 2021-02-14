@@ -6,19 +6,16 @@ body{
     color: white;
     background-color: black;
     background-image:
-        url('/images/black-center-gradient.png'), 
         url('/images/fibonacci-spiral-bar-vertical.svg'), 
         url('/images/spiral-tree-top-right.svg'), 
         url('/images/spiral-tree-bottom-right.svg'), 
-        url('/images/background-text-L-and-R.png');
+        url('/images/background2.png');
     background-repeat: 
-        repeat-y, 
         repeat-y, 
         no-repeat, 
         no-repeat, 
         repeat-y;
     background-position: 
-        center, 
         left top, 
         right top, 
         bottom right, 
@@ -70,7 +67,7 @@ pre{
   }
 
 
-.graphic-me{
+#graphic-me{
     border-radius: 5px;
     background-color: white;
     box-shadow: 0 0 20px white, 0 0 37px white, 0 0 50px white, 0 0 50px white;
@@ -78,7 +75,7 @@ pre{
 
 #my-skills-container{
     color: white;
-    font-size: 18px;
+    font-size: 14px;
     font-weight:bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -117,7 +114,7 @@ pre{
     border-radius: 5px;
     background-color: white;
     color: #333;
-    box-shadow: 0 0 5px white, 0 0 75px white, 0 0 50px white, 0 0 100px white;
+    box-shadow: 0 0 5px white, 0 0 45px white, 0 0 40px white, 0 0 65px white;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
 }
