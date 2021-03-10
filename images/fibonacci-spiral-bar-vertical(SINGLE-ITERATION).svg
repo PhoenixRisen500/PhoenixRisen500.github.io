@@ -8,15 +8,15 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
-   height="265.55374"
-   width="164.36568"
+   height="266"
+   width="165"
    id="svg2"
    sodipodi:docname="fibonacci-spiral-bar-vertical(SINGLE-ITERATION).svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    inkscape:export-filename="C:\Users\user2020\Desktop\portfolio\Fibonacci_spiral.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
-   viewBox="0 0 164.36568 265.55374">
+   viewBox="0 0 165 266">
   <sodipodi:namedview
      pagecolor="#1a1a1a"
      bordercolor="#666666"
@@ -30,9 +30,9 @@
      inkscape:window-height="1271"
      id="namedview254"
      showgrid="false"
-     inkscape:zoom="2.56"
-     inkscape:cx="286.66528"
-     inkscape:cy="200.84383"
+     inkscape:zoom="20.48"
+     inkscape:cx="109.49467"
+     inkscape:cy="135.77797"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
@@ -57,11 +57,11 @@
      id="defs5" />
   <path
      id="path2782-7"
-     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.301265;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.301936;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="" />
   <g
      id="g2664"
-     transform="translate(14.365717,0.05206512)">
+     transform="matrix(1.0032655,0,0,1.0011912,14.412462,0.05229182)">
     <g
        id="g531-3-8"
        transform="matrix(0,0.15063228,-0.15063228,0,152.64556,129.87813)"
@@ -197,7 +197,7 @@
   </g>
   <g
      id="g531-0-4-3"
-     transform="matrix(0,-0.15063228,0.15063228,0,-2.6456022,135.62353)"
+     transform="matrix(0,-0.15081172,0.15112415,0,-2.6544059,135.78525)"
      style="stroke:#ffffff">
     <path
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.66667;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
