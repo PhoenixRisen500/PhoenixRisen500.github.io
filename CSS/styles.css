@@ -6,7 +6,7 @@ body{
     color: white;
     background-color: black;
     background-image:
-        url('/images/fibonacci-spiral-bar-vertical.svg'), 
+        url('/images/fibonacci-spiral-bar-vertical\(SINGLE-ITERATION\).svg'), 
         url('/images/spiral-tree-top-right.svg'), 
         url('/images/spiral-tree-bottom-right.svg'), 
         url('/images/background2.png');
